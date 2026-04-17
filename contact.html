@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="glass mt-5">
+
+    <h2 class="text-center mb-4">📞 Contact Me</h2>
+
+    <div class="row">
+
+        <!-- LEFT: FORM -->
+        <div class="col-md-6">
+
+            <form>
+
+                <input type="text" class="form-control mb-3" placeholder="Your Name">
+
+                <input type="email" class="form-control mb-3" placeholder="Your Email">
+
+                <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+
+                <button class="btn btn-primary w-100">Send Message</button>
+
+            </form>
+
+        </div>
+
+        <!-- RIGHT: CONTACT INFO -->
+        <div class="col-md-6 text-center">
+
+            <h4 class="mb-3">📌 Contact Info</h4>
+
+            <p class="mb-1">👨‍💻 <strong>Divyam Raj</strong></p>
+            <p class="mb-1">📍 Gurugram, India</p>
+            <p class="mb-3">📧 rajdivyam72@gmail.com</p>
+
+            <hr>
+
+            <h5 class="mb-3">🌐 Connect with me</h5>
+
+            <!-- 🔥 CLICKABLE LINKS -->
+            <div>
+
+                <a href="https://www.linkedin.com/in/divyam-raj-05b6a4221/" 
+                   target="_blank" 
+                   class="btn btn-outline-light btn-sm me-2">
+                   🔗 LinkedIn
+                </a>
+
+                <a href="https://github.com/Divyamraj12" 
+                   target="_blank" 
+                   class="btn btn-outline-light btn-sm">
+                   💻 GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
