@@ -1,5 +1,5 @@
 # Fake-Job-Detection-System
-# 🚀 Fake Job Detection System
+
 
 An AI-powered web application that detects whether a job posting is **real or fake** using Machine Learning and Natural Language Processing (NLP).
 
